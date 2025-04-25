@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Roboto+Slab:wght@400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="stylesheet/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item text-white" aria-current="page">Got a Question? Call Us <i
+                class="fa-solid fa-phone"></i> 0800 181 2121 Mon - Fri / 9AM - 5PM</li>
+            <li class="breadcrumb-item ms-auto"><a class="text-decoration-none text-white"
+                href="https://mail.google.com/mail/u/0/"><i
+                  class="me-2 fa-solid fa-envelope"></i>sales@clearreflections.co</a></li>
+          </ol>
+        </nav>
+        <nav class="navbar  nav1 navbar-expand-lg px-5 navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h1 style="font-weight: 900;">Clear Reflections</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item  ms-4">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ms-4">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item ms-4">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item ms-4 ">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+              <!-- blow code is for search button  -->
+              <p class="d-inline-flex mb-0 mt-2 gap-1">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                  data-bs-auto-close="outside" aria-controls="collapseExample">
+                  <i class="fa-solid fa-magnifying-glass right-icon text-white"></i>
+                </a>
+              </p>
+              <!-- blow code is for login button  -->
+              <p class="d-inline-flex mb-0 mt-2 gap-1">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
+                  aria-controls="collapseExample">
+                  <i class="fa-solid fa-user right-icon text-white"></i>
+                </a>
+              </p>
+              <!-- blow code is for shopping cart button  -->
+              <p class="d-inline-flex mb-0 mt-2 gap-1">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+                  aria-controls="collapseExample">
+                  <i class="fa-solid fa-cart-shopping  right-icon text-white"></i>
+                </a>
+              </p>
+    
+            </div>
+          </div>
+        </nav>
+        <div id="nav-compunents">
+          <!-- blow code is for search button output  -->
+          <div class=" navsrch collapse" id="collapseExample">
+            <input class=" form-control ps-3" type="search" placeholder="search by room,style and colour">
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
+          </div>
+          <!-- blow code is for login button output  -->
+          <div class="login mx-auto collapse" id="collapseExample1">
+            <div class="card p-3">
+              <h1 class="text-center">Login</h1>
+              <input class=" form-control ps-3 mt-5" type="email" placeholder="Email">
+              <input class=" form-control ps-3 mt-5" type="password" placeholder="password">
+              <button class="btn btn-primary mt-5">Sign in</button>
+            </div>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
+          </div>
+          <!-- blow code is for cart button output  -->
+          <div class="login mx-auto collapse" id="collapseExample2">
+            <div class="card p-5">
+              <h1 class="text-center">Your Cart Is Empty</h1>
+              <button class="btn btn-primary mt-5">Continue shopping</button>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg nav2 px-5">
+          <div class="container-fluid">
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                  <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                    data-bs-auto-close="outside">
+                    SHOP BY MATERIAL <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <div class="dropdown-menu shadow">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Wooden framed</a>
+                            <a class="list-group-item" href="acrylic  bordered.html"> Acrylic bordered</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="metal bordered.html"> Metal bordered</a>
+                            <a class="list-group-item" href="decoretive mirrors.html">Decorative mirrors</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="">LED mirrors</a>
+                            <a class="list-group-item" href="bluetooth mirrors.html">Bluetooth mirrors</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                </li>
+                <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                  <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP BY COLOUR <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <div class="dropdown-menu shadow">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Cream mirrors</a>
+                            <a class="list-group-item" href="#">Frameless mirrors</a>
+                          </div>
+                        </div>
+    
+                        <div class="col-lg-6">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Black mirrors</a>
+                            <a class="list-group-item" href="#">Brown mirrors</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                  <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP BY ROOM <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <div class="dropdown-menu shadow">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Bathroom Mirrors</a>
+                            <a class="list-group-item" href="#"> Dining Room Mirrors</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#"> Bedroom Mirrors</a>
+                            <a class="list-group-item" href="#">Dressing Room Mirrors</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Kitchen Mirrors</a>
+                            <a class="list-group-item" href="#">Living Room Mirrors</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                  <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP BY SHAPE <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <div class="dropdown-menu shadow">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Round Mirrors</a>
+                            <a class="list-group-item" href="#"> Sunburst Mirrors</a>
+                            <a class="list-group-item" href="led mirrors.html"> Oval Mirrors</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#"> Square Mirrors</a>
+                            <a class="list-group-item" href="#">Teardrop Mirrors</a>
+                            <a class="list-group-item" href="#"> Pebble & Ponds Mirrors</a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Arched Mirrors</a>
+                            <a class="list-group-item" href="#">Irregular Mirrors</a>
+                            <a class="list-group-item" href="#"> Rectangular Mirrors</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                <li class="nav-item me-4">
+                  <a class="nav-link text-white" href="#">FIXING</a>
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link text-white" href="#">VIEW ALL</a>
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link text-white" href="#">SALE</a>
+                </li>
+    
+    
+        </nav>
+      </header>
+      <br>
+      <br>
+      <br>
+    
+      <section class="all-cards my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <a href=""><img src="data:image/jpeg;base64,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"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Rectangular Mirrors </h5>
+                  <h5 class="card-title"> Rs: 500</h5>
+                  <a href="#" class="card-link">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <a href=""><img src="data:image/jpeg;base64,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" class="card-img-top" alt="livingroom"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Rectangular Mirrors </h5>
+                  <h5 class="card-title"> Rs: 500</h5>
+                  <a href="#" class="card-link">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREmlwIo1Pn2O3WPuXmnRv45CRglXic6km6_g&usqp=CAU"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Rectangular Mirrors</h5>
+                  <h5 class="card-title"> Rs: 500</h5>
+                  <a href="#" class="card-link">Add To Card</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuETCYFwaEaZPY_2BXUzn_Qpq_vVPcGV7S-Q&usqp=CAU" class="card-img-top" alt="diningroom"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Rectangular Mirrors</h5>
+                  <h5 class="card-title"> Rs: 500</h5>
+                  <a href="#" class="card-link">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <a href=""> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHPmRTXkGMPlVSpxWB-mLqp2u7EaaHpIclg&usqp=CAU" class="card-img-top" alt="dressingroom"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Rectangular Mirrors</h5>
+                  <h5 class="card-title"> Rs: 500</h5>
+                  <a href="#" class="card-link">Add To Card</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <a href="kitchen-mirrors.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMMRXRd92PGqCjBtgzAUDac0_DJtpxtFJVA&usqp=CAU" class="card-img-top" alt="kitchen"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Rectangular Mirrors</h5>
+                  <h5 class="card-title"> Rs: 500</h5>
+                  <a href="#" class="card-link">Add To Card</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+      <br>
+      <br>
+      <footer class="bg-dark text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">ABOUT US</h5>
+    
+              <p>
+                We’re an Architectural/Interior designer based company which is serving in Residential and commercial
+                projects for last 20 years in all over India. We have completed more than 1000 projects in the same fields.
+                As all we Know India is a fast growing country in online business industry, we have decided to enter in
+                online business.
+              </p>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Contact us</h5>
+    
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>

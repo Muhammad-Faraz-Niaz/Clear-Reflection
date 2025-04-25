@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/riesling" rel="stylesheet">
+                
+
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="shortcut icon" href="images/pngegg.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <title>clear reflections</title>
+</head>
+<body>
+    <header>
+        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item text-white" aria-current="page">Got a Question? Call Us <i class="fa-solid fa-phone"></i> 0800 181 2121 Mon - Fri / 9AM - 5PM</li>
+                <li class="breadcrumb-item ms-auto"><a class= "text-decoration-none text-white"  href="https://mail.google.com/mail/u/0/"><i class="me-2 fa-solid fa-envelope"></i>sales@clearreflections.co</a></li>
+            </ol>
+          </nav>
+        <nav class="navbar  nav1 navbar-expand-lg px-5 navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><h1 style="font-weight: 900;">Clear Reflections</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item  ms-4">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item ms-4 ">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                </ul>
+                <!-- blow code is for search button  -->
+                <p class="d-inline-flex mb-0 mt-2 gap-1">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" data-bs-auto-close="outside" aria-controls="collapseExample">
+                        <i class="fa-solid fa-magnifying-glass right-icon text-white"></i>
+                    </a>
+                    </p>
+                 <!-- blow code is for login button  -->
+                    <p class="d-inline-flex mb-0 mt-2 gap-1">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa-solid fa-user right-icon text-white"></i>
+                        </a>
+                        </p>
+                      <!-- blow code is for shopping cart button  -->
+                        <p class="d-inline-flex mb-0 mt-2 gap-1">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fa-solid fa-cart-shopping  right-icon text-white"></i>
+                            </a>
+                            </p>
+                
+              </div>
+            </div>
+          </nav>
+          <div id="nav-compunents">
+           <!-- blow code is for search button output  -->
+          <div class=" navsrch collapse" id="collapseExample">
+                 <input id="navSrch" class=" form-control ps-3" type="search" placeholder="search by room,style and colour">
+                 <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
+          </div>
+          <!-- blow code is for login button output  -->
+          <div class="login mx-auto collapse" id="collapseExample1">
+            <div class="card p-3">
+                <h1 class="text-center">Login</h1>
+            <input class=" form-control ps-3 mt-5" type="email" placeholder="Email">
+            <input class=" form-control ps-3 mt-5" type="password" placeholder="password">
+            <button class="btn btn-primary mt-5">Sign in</button>
+        </div>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
+     </div>
+      <!-- blow code is for cart button output  -->
+      <div class="login mx-auto collapse" id="collapseExample2">
+        <div class="card p-5">
+            <h1 class="text-center">Your Cart Is Empty</h1>
+        <button class="btn btn-primary mt-5">Continue shopping</button>
+    </div>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg nav2 px-5">
+    <div class="container-fluid">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                  SHOP BY MATERIAL <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu shadow">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="woodenframed.html">Wooden framed</a>
+                          <a class="list-group-item" href="acrylic  bordered.html"> Acrylic bordered</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="metal bordered.html"> Metal bordered</a>
+                          <a class="list-group-item" href="decoretive mirrors.html">Decorative mirrors</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="led mirrors.html">LED mirrors</a>
+                          <a class="list-group-item" href="bluetooth mirrors.html">Bluetooth mirrors</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </li>
+              <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP BY COLOUR <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu shadow">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="list-group">
+                          <a class="list-group-item" href="cream mirror.html">Cream mirrors</a>
+                          <a class="list-group-item" href="frameless mirror.html">Frameless mirrors</a>
+                        </div>
+                      </div>
+                     
+                      <div class="col-lg-6">
+                        <div class="list-group">
+                          <a class="list-group-item" href="black mirror.html">Black mirrors</a>
+                          <a class="list-group-item" href="brown mirror.html">Brown mirrors</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP BY ROOM <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu shadow">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="bathroom mirrors.html">Bathroom Mirrors</a>
+                          <a class="list-group-item" href="Dining Mirrors.html"> Dining Room Mirrors</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="Bedroom Room.html"> Bedroom Mirrors</a>
+                          <a class="list-group-item" href="Dressing room mirrors.html">Dressing Room Mirrors</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="Kitchen mirrors.html">Kitchen Mirrors</a>
+                          <a class="list-group-item" href="livingroom.html">Living Room Mirrors</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown me-4 dropdown-mega position-static">
+                <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP BY SHAPE <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu shadow">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="Round Mirrors.html">Round Mirrors</a>
+                          <a class="list-group-item" href="Sunburst Mirrors.html"> Sunburst Mirrors</a>
+                          <a class="list-group-item" href="Oval Mirrors.html"> Oval Mirrors</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="Square Mirrors.html"> Square Mirrors</a>
+                          <a class="list-group-item" href="Teardrop Mirrors.html">Teardrop Mirrors</a>
+                          <a class="list-group-item" href="Pebble & Ponds Mirrors.html"> Pebble & Ponds Mirrors</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="list-group">
+                          <a class="list-group-item" href="Arched Mirrors.html">Arched Mirrors</a>
+                          <a class="list-group-item" href="Irregular Mirrors.html">Irregular Mirrors</a>
+                          <a class="list-group-item" href="Rectangular Mirrors.html"> Rectangular Mirrors</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+             
+          <li class="nav-item me-4">
+            <a class="nav-link text-white" href="fix.html">FIXING</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link text-white" href="view.html">VIEW ALL</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link text-white" href="sale.html">SALE</a>
+          </li>
+        
+        
+  </nav>
+    </header>
+
+
+    <section class="hero">
+      <div class="row" >
+        <div data-bs-ride="carousel" data-bs-interval="3000" id="carouselExampleAutoplaying" class="col-lg-12 col-md-12 col-12 slider-container carousel slide">
+         
+          <div id="slider carousel-inner">
+            <div class="slide carousel-item active" id="s1">
+             <div class="slide-content ms-5 ">
+              <h1>clear reflections, the pakistan's <br>
+                 largest online mirror shop</h1>
+                 <p>14% off all orders over 250$* until 23 march with code mar23</p>
+                <a href="index.html"> <button class="btn btn-light px-5 py-2"> Shop Now</button></a>
+            </div>
+            </div>
+            <div class="slide carousel-item"id="s2">
+              <div class="slide-content ms-5 ">
+                <h1>starbust all glass <br> stylised round mirror</h1>
+                   <p>14% off all orders over 250$* until 23 march with code mar23</p>
+                  <a href="Sunburst Mirrors.html"><button class="btn btn-light px-5 py-2"> Shop Now</button></a>
+              </div>
+          
+                  </div>
+                  <div class="slide carousel-item"id="s4">
+                    <div class="slide-content ms-5 ">
+                      <h1>door all glass stylised <br>rectangle mirror</h1>
+                         <p>14% off all orders over 250$* until 23 march with code mar23</p>
+                         <a href="Rectangular Mirrors.html"><button class="btn btn-light px-5 py-2"> Shop Now</button></a>
+                    </div>
+                      </div>
+                      <div class="slide carousel-item " id="s5">
+                        <div class="slide-content ms-5 ">
+                          <h1>starbust all glass <br>stylised round mirror</h1>
+                             <p>14% off all orders over 250$* until 23 march with code mar23</p>
+                             <a href="Sunburst Mirrors.html"><button class="btn btn-light px-5 py-2"> Shop Now</button></a>
+                        </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="all-cards">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 s">
+            <div class="card">
+             <a href=""> <img src="images/bedroom.jpg" class="card-img-top" alt="bedroom"></a>
+              <div class="card-body">
+                <h5 class="card-title">Bed Rooms Mirrors</h5>
+                <p class="card-text">
+                  With hundreds of mirrors available you are sure 
+                  to find the perfect mirror for your living room.</p>
+                <a href="Bedroom Room.html" class="card-link">Living Room Mirrors</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 s">
+            <div class="card">
+             <a href=""><img src="images/livingroom.jpeg" class="card-img-top" alt="livingroom"></a>
+              <div class="card-body">
+                <h5 class="card-title">Living Rooms Mirrors</h5>
+                <p class="card-text">
+                  With hundreds of mirrors available you are sure 
+                  to find the perfect mirror for your living room.</p>
+                <a href="livingroom.html" class="card-link">Living Room Mirrors</a>
+              </div>
+          </div>
+        </div>
+          <div class="col-lg-4 s">
+            <div class="card">
+             <a href=""><img src="images/bathroom.png" class="card-img-top" alt="bedroom"></a> 
+              <div class="card-body">
+                <h5 class="card-title">Bath Rooms Mirrors</h5>
+                <p class="card-text">
+                  With hundreds of mirrors available you are sure 
+                  to find the perfect mirror for your living room.</p>
+                <a href="bathroom mirrors.html" class="card-link">Bath Room Mirrors</a>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-lg-4 s">
+              <div class="card">
+               <a href=""><img src="images/diningroom.jpg" class="card-img-top" alt="diningroom"></a> 
+                <div class="card-body">
+                  <h5 class="card-title">Dining Rooms Mirrors</h5>
+                  <p class="card-text">
+                    With hundreds of mirrors available you are sure 
+                    to find the perfect mirror for your living room.</p>
+                  <a href="Dining Mirrors.html" class="card-link">Dining Room Mirrors</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 s">
+              <div class="card">
+               <a href=""> <img src="images/dressingroom.png" class="card-img-top" alt="dressingroom"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Dressing Rooms Mirrors</h5>
+                  <p class="card-text">
+                    With hundreds of mirrors available you are sure 
+                    to find the perfect mirror for your living room.</p>
+                  <a href="Dressing room mirrors.html" class="card-link">Living Room Mirrors</a>
+                </div>
+            </div>
+          </div>
+            <div class="col-lg-4 s">
+              <div class="card">
+               <a href="kitchen-mirrors.html"><img src="images/kitchen.png" class="card-img-top" alt="kitchen"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Kitchen Mirrors</h5>
+                  <p class="card-text">
+                    With hundreds of mirrors available you are sure 
+                    to find the perfect mirror for your living room.</p>
+                  <a href="Kitchen mirrors.html" class="card-link">Kitchen Mirrors</a>
+                </div>
+            </div>
+          </div>
+          </div>
+     </div>
+
+    </section>
+
+    <section class="colour">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/colormirror.jpg" alt="">
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center align-items-center" style="background-color: #93adc9;">
+            <div class="content">
+            <h2 class="all-h2">Find the perfect coloured <br> mirror for your room</h2>
+            <p>MirrorOutlets wide range of coloured mirrors will <br>leave you spoilt for choice when choosing the <br>perfect mirror for your home</p>
+            <a  href="color.html" class="btn btn-light px-5 py-2"> Shop By Colour</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section class="inspiration text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="all-h2">In need of some inspiration?</h2>
+            <p class="fs-5 pb-5">Get inspired by our wonderful customers! From bedrooms to bathrooms <br> to home kitchen, our mirrors get used everywhere, and we love seeing them in your <br> homes.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-auto"><a href=""><img src="images/g1-home.jpg" class="gallery" alt=""></a></div>
+          <div class="col-lg-auto"><a href=""><img src="images/g2-home.jpg" class="gallery"alt=""></a></div>
+          <div class="col-lg-auto"><a href=""><img src="images/g3-home.webp" class="gallery" alt=""></a></div>
+          <div class="col-lg-auto"><a href=""><img src="images/g4-home.webp"  class="gallery"alt=""></a></div>
+          <div class="col-lg-auto"><a href=""><img src="images/g5-home.webp" class="gallery" alt=""></a></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 pt-5">
+            <a href="" class="btn btn-light px-5 py-2">View the gallery</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-touch">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="three-card">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3 class="">Don’t forget your mirror fixings</h3>
+              <p>In order to ensure your new addition is secured safely to your walls, it’s important that you remember to obtain the correct fixtures and fittings for your new mirror! We have an extensive range of fittings suitable for an array of mirror types.</p>
+             <a href="fix.html">Shop Fixings</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="three-card">
+            <i class="fa-solid fa-truck"></i>
+            <h3 class="">Free & Fully Insured Delivery</h3>
+            <p class="pb-5">Mirrors by MirrorOutlet provide free & fully insured nationwide delivery, ensuring that your mirror arrives safely and quickly.  </p>
+            <a href="delivery.html">Delivery Information</a>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="three-card">
+            <i class="fa-solid fa-phone"></i>
+            <h3 class="">Get in touch today</h3>
+            <p class="pb-2">If you would like more information on any of the mirrors that we sell, or if you would like advice on a mirror to best suit your space, get in touch with our team today. Get in touch and we will be happy to answer any questions or queries you have. you can contact us online for a call.</p>
+            <a href="contact.html">Contact Us</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer class="bg-dark text-white text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ABOUT US</h5>
+    
+            <p>
+             We’re an Architectural/Interior designer based company which is serving in Residential and commercial projects for last 20 years in all over India. We have completed more than 1000 projects in the same fields. As all we Know India is a fast growing country in online business industry, we have decided to enter in online business.
+            </p>
+          </div>
+    
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact us</h5>
+    
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+              voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+    </footer> -->
+  <section class="foot bg-dark py-3" style="overflow-x: hidden;">
+   <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-lg-4 mb-0 text-white">&copy; 2024 Company, Inc</p>
+  
+      <a href="/" class=" text-white navbar-brand col-lg-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto  text-decoration-none fs-1">
+      ClearReflections
+      </a>
+  
+      <ul class="nav col-lg-4 justify-content-end">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item"><a href="view.html" class="nav-link px-2 text-white">Pricing</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-white">FAQs</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-white">About</a></li>
+      </ul>
+    </footer>
+  </div>
+</section>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+</html>
